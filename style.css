@@ -1,0 +1,61 @@
+/* style.css – Custom styles for Nexora APIs site */
+
+/* Fonts */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Hero section */
+  .hero {
+    background: linear-gradient(135deg, #4c1d95, #9333ea);
+    color: white;
+    padding: 4rem 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #7c3aed;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #6d28d9;
+  }
+  
+  /* Pricing cards */
+  .pricing-card {
+    background-color: #1f2937;
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Footer */
+  footer {
+    border-top: 1px solid #374151;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+  }
+  
+  /* Links */
+  a {
+    color: #a78bfa;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #c4b5fd;
+    text-decoration: underline;
+  }
+  
